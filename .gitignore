@@ -1,0 +1,8 @@
+/bin
+/target
+*.*~
+/.git
+/.settings
+/.classpath
+/.project
+/.gradle

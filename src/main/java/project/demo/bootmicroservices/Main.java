@@ -29,9 +29,5 @@ public class Main {
 		
 		ProductDetailRepository repository = ctx.getBean(ProductDetailRepository.class);
 		repository.save(detail);
-		
-		for (ProductDetail productDetail : repository.findAll()) {
-			System.out.println(productDetail.getProductId());
-		}
 	}
 }
